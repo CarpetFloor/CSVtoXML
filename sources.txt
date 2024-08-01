@@ -1,2 +1,4 @@
 -File upload icon:
 https://www.flaticon.com/free-icon/upload_3031708?term=upload&page=1&position=34&origin=search&related_id=3031708
+-Delete icon:
+https://www.flaticon.com/free-icon/delete_6861362?term=delete&page=1&position=3&origin=search&related_id=6861362

@@ -9,11 +9,26 @@
     <title>CSV to XML</title>
 </head>
 <body>
+    <p id="configHeader">Configure CSV file</p>
+    
+    <div class="config">
+        <div class="input">
+            <img id="delete" src="Images/delete.png">
+            <p id="na">NOT APPLICABLE</p>
+            <p id="itemtype">ITEMTYPE</p>
+            <p id="itemid">ITEMID</p>
+            <p id="color">COLOR</p>
+            <p id="qty">QTY</p>
+        </div>
+
+        <div class="display"></div>
+    </div>
+
     <label for="input">
         <img src="Images/upload.png">
         <p>Choose CSV file</p>
     </label>
-    
+
     <input id="input" type="file">
 
     <script src="main.js"></script>

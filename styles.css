@@ -21,6 +21,65 @@ img {
     height: 20px;
 }
 
+#configHeader {
+    margin: 0;
+    font-weight: 500;
+}
+
+.config {
+    display: flex;
+    flex-direction: column;
+    user-select: none;
+    height: 8em;
+    margin: 0;
+}
+
+.config div {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+
+.config .input {
+    align-items: center;
+}
+.config .input *:not(:last-child) {
+    margin-right: 1em;
+}
+.config .input * {
+    border: 1px solid black;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    border-radius: 20px;
+}
+.config .input *:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+.config .input img {
+    padding-top: 0.1em;
+    padding-bottom: 0.1em;
+}
+
+.config .display {
+    font-size: 1.2em;
+    padding-left: 1em;
+}
+.config .display * {
+    margin: 0;
+}
+.config .display .nonComma {
+    border: 1px solid black;
+    padding-left: 0.25em;
+    padding-right: 0.25em;
+}
+.config .display .comma {
+    margin-left: 0.1em;
+    margin-right: 0.5em;
+    font-weight: bold;
+}
+
 label {
     display: flex;
     flex-direction: row;
