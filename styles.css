@@ -52,6 +52,9 @@ img {
     padding-right: 0.75em;
     border-radius: 20px;
 }
+.config .input :not(#na) {
+    font-weight: bold;
+}
 .config .input *:hover {
     cursor: pointer;
     background-color: black;

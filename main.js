@@ -69,15 +69,73 @@ function readFile() {
         for(let part of split) {
             partsUnformatted.push(part);
         }
+
+        parseParts(split);
     }
 }
 
-let output = "<inventory>"
+let sectionIndexMap = new Map();
 
-/**
- * -Need everything in INVENTORY tag
- * -Every part must be in ITEM tag
- * -Need ITEMTYPE, ITEMID, COLOR, and QTY
- */
+let output = "<INVENTORY>"
 
-output += "<inventory>";
+function parseParts(toParse) {
+    for(let i = 0; i < config.length; i++) {
+        if(config[i] != "na") {
+            sectionIndexMap.set(config[i], i);
+        }
+    }
+
+    for(let i = 0; i < toParse.length; i++) {
+        let itemid = "";
+        let color = "";
+        let qty = "";
+
+        let split = null;
+
+        // handle part with one data value having commas differently
+        if(toParse[i].includes("\"")) {
+            split = [];
+
+            let foundClosingQuote = true;
+            let substring = "";
+
+            for(let c = 0; c < toParse[i].length; c++) {
+                if((toParse[i][c] != "\"") && (toParse[i][c] != ",")) {
+                    substring += toParse[i][c];
+                }
+                
+                if(toParse[i][c] == "\"") {
+                    foundClosingQuote = !(foundClosingQuote);
+                }
+
+                if(foundClosingQuote && (toParse[i][c] == ",")) {
+                    split.push(substring);
+
+                    substring = "";
+                }
+            }
+
+            // for somer reason the final substring has the carriage return escape character
+            split.push(substring.replace("\r", ""));
+        }
+        else {
+            split = toParse[i].split(",");
+        }
+
+        // find the necessary data values
+        itemid = split[sectionIndexMap.get("itemid")];
+        color = split[sectionIndexMap.get("color")];
+        qty = split[sectionIndexMap.get("qty")];
+
+        // add on to the output string
+        output += "\n\t<ITEM>";
+        output += "\n\t\t<ITEMTYPE>P</ITEMTYPE>";
+        output += "\n\t\t<ITEMID>" + itemid + "</ITEMID>";
+        output += "\n\t\t<COLOR>" + color + "</COLOR>";
+        output += "\n\t\t<QTY>" + qty + "</QTY>";
+        output += "\n\t</ITEM>"
+    }
+
+    output += "\n</INVENTORY>";
+    console.log(output);
+}
