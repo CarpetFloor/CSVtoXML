@@ -87,7 +87,7 @@ function parseParts(toParse) {
         }
     }
 
-    output += "<INVENTORY>";
+    output = "<INVENTORY>";
 
     for(let i = 0; i < toParse.length; i++) {
         let itemid = "";
@@ -137,7 +137,8 @@ function parseParts(toParse) {
         output += "\n\t\t<ITEMTYPE>P</ITEMTYPE>";
         output += "\n\t\t<ITEMID>" + itemid + "</ITEMID>";
         output += "\n\t\t<COLOR>" + color + "</COLOR>";
-        output += "\n\t\t<QTY>" + qty + "</QTY>";
+        output += "\n\t\t<QTYFILLED>0</QTYFILLED>";
+        output += "\n\t\t<MINQTY>" + qty + "</MINQTY>";
         output += "\n\t</ITEM>"
     }
 
