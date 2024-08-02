@@ -1,628 +1,420 @@
-(Not Applicable)
+Not Applicable
 Color ID: 0
-
 White
 Color ID: 1
-
 Very Light Gray
 Color ID: 49
-
 Very Light Bluish Gray
 Color ID: 99
-
 Light Bluish Gray
 Color ID: 86
-
 Light Gray
 Color ID: 9
-
 Dark Gray
 Color ID: 10
-
 Dark Bluish Gray
 Color ID: 85
-
 Black
 Color ID: 11
-
 Dark Red
 Color ID: 59
-
 Red
 Color ID: 5
-
 Reddish Orange
 Color ID: 167
-
 Dark Salmon
 Color ID: 231
-
 Salmon
 Color ID: 25
-
 Coral
 Color ID: 220
-
 Light Salmon
 Color ID: 26
-
 Sand Red
 Color ID: 58
-
 Dark Brown
 Color ID: 120
-
 Umber
 Color ID: 168
-
 Brown
 Color ID: 8
-
 Reddish Brown
 Color ID: 88
-
 Light Brown
 Color ID: 91
-
 Medium Brown
 Color ID: 240
-
 Fabuland Brown
 Color ID: 106
-
 Dark Tan
 Color ID: 69
-
 Tan
 Color ID: 2
-
 Light Nougat
 Color ID: 90
-
 Medium Tan
 Color ID: 241
-
 Nougat
 Color ID: 28
-
 Medium Nougat
 Color ID: 150
-
 Dark Nougat
 Color ID: 225
-
 Sienna
 Color ID: 169
-
 Fabuland Orange
 Color ID: 160
-
 Earth Orange
 Color ID: 29
-
 Dark Orange
 Color ID: 68
-
 Rust
 Color ID: 27
-
 Neon Orange
 Color ID: 165
-
 Orange
 Color ID: 4
-
 Medium Orange
 Color ID: 31
-
 Light Orange
 Color ID: 32
-
 Bright Light Orange
 Color ID: 110
-
 Very Light Orange
 Color ID: 96
-
 Dark Yellow
 Color ID: 161
-
 Yellow
 Color ID: 3
-
 Light Yellow
 Color ID: 33
-
 Bright Light Yellow
 Color ID: 103
-
 Neon Yellow
 Color ID: 236
-
 Neon Green
 Color ID: 166
-
 Light Lime
 Color ID: 35
-
 Yellowish Green
 Color ID: 158
-
 Medium Lime
 Color ID: 76
-
 Lime
 Color ID: 34
-
 Fabuland Lime
 Color ID: 248
-
 Olive Green
 Color ID: 155
-
 Dark Olive Green
 Color ID: 242
-
 Dark Green
 Color ID: 80
-
 Green
 Color ID: 6
-
 Bright Green
 Color ID: 36
-
 Medium Green
 Color ID: 37
-
 Light Green
 Color ID: 38
-
 Sand Green
 Color ID: 48
-
 Dark Turquoise
 Color ID: 39
-
 Light Turquoise
 Color ID: 40
-
 Aqua
 Color ID: 41
-
 Light Aqua
 Color ID: 152
-
 Dark Blue
 Color ID: 63
-
 Blue
 Color ID: 7
-
 Dark Azure
 Color ID: 153
-
 Little Robots Blue
 Color ID: 247
-
 Maersk Blue
 Color ID: 72
-
 Medium Azure
 Color ID: 156
-
 Sky Blue
 Color ID: 87
-
 Medium Blue
 Color ID: 42
-
 Bright Light Blue
 Color ID: 105
-
 Light Blue
 Color ID: 62
-
 Sand Blue
 Color ID: 55
-
 Dark Blue-Violet
 Color ID: 109
-
 Violet
 Color ID: 43
 Blue-Violet
 Color ID: 97
-
 Lilac
 Color ID: 245
-
 Medium Violet
 Color ID: 73
-
 Light Lilac
 Color ID: 246
-
 Light Violet
 Color ID: 44
-
 Dark Purple
 Color ID: 89
-
 Purple
 Color ID: 24
-
 Light Purple
 Color ID: 93
-
 Medium Lavender
 Color ID: 157
-
 Lavender
 Color ID: 154
-
 Clikits Lavender
 Color ID: 227
-
 Sand Purple
 Color ID: 54
-
 Magenta
 Color ID: 71
-
 Dark Pink
 Color ID: 47
-
 Medium Dark Pink
 Color ID: 94
-
 Bright Pink
 Color ID: 104
-
 Pink
 Color ID: 23
-
 Light Pink
 Color ID: 56
-
 Trans-Clear
 Color ID: 12
-
 Trans-Brown (Old Trans-Black)
 Color ID: 13
-
 Trans-Black (2023)
 Color ID: 251
-
 Trans-Red
 Color ID: 17
-
 Trans-Neon Orange
 Color ID: 18
-
 Trans-Orange
 Color ID: 98
-
 Trans-Light Orange
 Color ID: 164
-
 Trans-Neon Yellow
 Color ID: 121
-
 Trans-Yellow
 Color ID: 19
-
 Trans-Neon Green
 Color ID: 16
-
 Trans-Bright Green
 Color ID: 108
-
 Trans-Light Green
 Color ID: 221
-
 Trans-Light Bright Green
 Color ID: 226
-
 Trans-Green
 Color ID: 20
-
 Trans-Dark Blue
 Color ID: 14
-
 Trans-Medium Blue
 Color ID: 74
-
 Trans-Light Blue
 Color ID: 15
-
 Trans-Aqua
 Color ID: 113
-
 Trans-Light Purple
 Color ID: 114
-
 Trans-Medium Purple
 Color ID: 234
-
 Trans-Purple
 Color ID: 51
-
 Trans-Dark Pink
 Color ID: 50
-
 Trans-Pink
 Color ID: 107
-
 Chrome Gold
 Color ID: 21
-
 Chrome Silver
 Color ID: 22
-
 Chrome Antique Brass
 Color ID: 57
-
 Chrome Black
 Color ID: 122
-
 Chrome Blue
 Color ID: 52
-
 Chrome Green
 Color ID: 64
-
 Chrome Pink
 Color ID: 82
-
 Pearl White
 Color ID: 83
-
 Pearl Very Light Gray
 Color ID: 119
-
 Pearl Light Gray
 Color ID: 66
-
 Flat Silver
 Color ID: 95
-
 Bionicle Silver
 Color ID: 239
-
 Pearl Dark Gray
 Color ID: 77
-
 Pearl Black
 Color ID: 244
-
 Pearl Light Gold
 Color ID: 61
-
 Pearl Gold
 Color ID: 115
-
 Reddish Gold
 Color ID: 235
-
 Bionicle Gold
 Color ID: 238
-
 Flat Dark Gold
 Color ID: 81
-
 Reddish Copper
 Color ID: 249
-
 Copper
 Color ID: 84
-
 Bionicle Copper
 Color ID: 237
-
 Pearl Brown
 Color ID: 255
-
 Pearl Red
 Color ID: 252
-
 Pearl Green
 Color ID: 253
-
 Pearl Blue
 Color ID: 254
-
 Pearl Sand Blue
 Color ID: 78
-
 Pearl Sand Purple
 Color ID: 243
-
 Satin Trans-Clear
 Color ID: 228
-
 Satin Trans-Brown
 Color ID: 229
-
 Satin Trans-Yellow
 Color ID: 170
-
 Satin Trans-Bright Green
 Color ID: 233
-
 Satin Trans-Light Blue
 Color ID: 223
-
 Satin Trans-Dark Blue
 Color ID: 232
-
 Satin Trans-Purple
 Color ID: 230
-
 Satin Trans-Dark Pink
 Color ID: 224
-
 Metallic Silver
 Color ID: 67
-
 Metallic Green
 Color ID: 70
-
 Metallic Gold
 Color ID: 65
-
 Metallic Copper
 Color ID: 250
-
 Milky White
 Color ID: 60
-
 Glow In Dark White
 Color ID: 159
-
 Glow In Dark Opaque
 Color ID: 46
-
 Glow In Dark Trans
 Color ID: 118
-
 Glitter Trans-Clear
 Color ID: 101
-
 Glitter Trans-Orange
 Color ID: 222
-
 Glitter Trans-Neon Green
 Color ID: 163
-
 Glitter Trans-Light Blue
 Color ID: 162
-
 Glitter Trans-Purple
 Color ID: 102
-
 Glitter Trans-Dark Pink
 Color ID: 100
-
 Speckle Black-Silver
 Color ID: 111
-
 Speckle Black-Gold
 Color ID: 151
-
 Speckle Black-Copper
 Color ID: 116
-
 Speckle DBGray-Silver
 Color ID: 117
-
 Mx White
 Color ID: 123
-
 Mx Light Bluish Gray
 Color ID: 124
-
 Mx Light Gray
 Color ID: 125
-
 Mx Charcoal Gray
 Color ID: 126
-
 Mx Tile Gray
 Color ID: 127
-
 Mx Black
 Color ID: 128
-
 Mx Tile Brown
 Color ID: 131
-
 Mx Terracotta
 Color ID: 134
-
 Mx Brown
 Color ID: 132
-
 Mx Buff
 Color ID: 133
-
 Mx Red
 Color ID: 129
-
 Mx Pink Red
 Color ID: 130
-
 Mx Orange
 Color ID: 135
-
 Mx Light Orange
 Color ID: 136
-
 Mx Light Yellow
 Color ID: 137
-
 Mx Ochre Yellow
 Color ID: 138
-
 Mx Lemon
 Color ID: 139
-
 Mx Pastel Green
 Color ID: 141
-
 Mx Olive Green
 Color ID: 140
-
 Mx Aqua Green
 Color ID: 142
-
 Mx Teal Blue
 Color ID: 146
-
 Mx Tile Blue
 Color ID: 143
-
 Mx Medium Blue
 Color ID: 144
-
 Mx Pastel Blue
 Color ID: 145
-
 Mx Violet
 Color ID: 147
-
 Mx Pink
 Color ID: 148
-
 Mx Clear
 Color ID: 149
-
 Mx Foil Dark Gray
 Color ID: 210
-
 Mx Foil Light Gray
 Color ID: 211
-
 Mx Foil Dark Green
 Color ID: 212
-
 Mx Foil Light Green
 Color ID: 213
-
 Mx Foil Dark Blue
 Color ID: 214
-
 Mx Foil Light Blue
 Color ID: 215
-
 Mx Foil Violet
 Color ID: 216
-
 Mx Foil Red
 Color ID: 217
-
 Mx Foil Yellow
 Color ID: 218
-
 Mx Foil Orange
 Color ID: 219
