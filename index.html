@@ -9,7 +9,7 @@
     <title>CSV to XML</title>
 </head>
 <body>
-    <p id="configHeader">Configure CSV file</p>
+    <p class="header">Configure CSV file</p>
     
     <div class="config">
         <div class="input">
@@ -29,6 +29,24 @@
     </label>
 
     <input id="input" type="file">
+
+    <p class="header">Output</p>
+
+    <p id="indicator">Copied!</p>
+
+    <div class="outputControls">
+        <button id="copy" class="control">
+            <img src="Images/copy.png">
+            <p>Copy to clipboard</p>
+        </button>
+
+        <a id="download" class="control">
+            <img src="Images/download.png">
+            <p>Download XML file</p>
+        </a>
+    </div>
+
+    <span id="outputText"></span>
 
     <script src="main.js"></script>
 </body>

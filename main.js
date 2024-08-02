@@ -76,7 +76,7 @@ function readFile() {
 
 let sectionIndexMap = new Map();
 
-let output = "<INVENTORY>"
+let output = "";
 
 function parseParts(toParse) {
     for(let i = 0; i < config.length; i++) {
@@ -84,6 +84,8 @@ function parseParts(toParse) {
             sectionIndexMap.set(config[i], i);
         }
     }
+
+    output += "<INVENTORY>";
 
     for(let i = 0; i < toParse.length; i++) {
         let itemid = "";
@@ -137,5 +139,35 @@ function parseParts(toParse) {
     }
 
     output += "\n</INVENTORY>";
-    console.log(output);
+
+    let htmlOutput = output.replaceAll("<", "&lt;");
+    htmlOutput = htmlOutput.replaceAll(">", "&gt;");
+    htmlOutput = htmlOutput.replaceAll("\t", "&nbsp;")
+
+    document.querySelector("#outputText").innerText = output;
 }
+
+let indicatorTimeout = null;
+
+document.querySelector("#copy").addEventListener("click", function() {
+    navigator.clipboard.writeText(output);
+    document.querySelector("#indicator").style.opacity = "1";
+
+    if(indicatorTimeout != null) {
+        window.clearTimeout(indicatorTimeout);
+        indicatorTimeout = null;
+    }
+
+    indicatorTimeout = window.setTimeout(function() {
+        document.querySelector("#indicator").style.opacity = "0";
+        indicatorActive = false;
+    }, 2000);
+});
+
+let downloadButton = document.querySelector("#download");
+downloadButton.addEventListener("click", function() {
+    let file = new Blob([output], {type: "text/plain"});
+
+    downloadButton.href = URL.createObjectURL(file);
+    downloadButton.download = "output.xml";
+})

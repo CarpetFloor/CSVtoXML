@@ -21,16 +21,17 @@ img {
     height: 20px;
 }
 
-#configHeader {
+.header {
     margin: 0;
-    font-weight: 500;
+    font-weight: 600;
+    font-size: 1.2em;
 }
 
 .config {
     display: flex;
     flex-direction: column;
     user-select: none;
-    height: 8em;
+    height: 7em;
     margin: 0;
 }
 
@@ -96,6 +97,7 @@ label {
     width: 10em;
     font-family: 0.5em;
     user-select: none;
+    margin-bottom: 3em;
 }
 label:hover {
     cursor: pointer;
@@ -106,6 +108,59 @@ label p {
     font-weight: 500;
 }
 
-input {
+#input {
     display: none;
+}
+
+#indicator {
+    position: absolute;
+    margin-top: -2.2em;
+    margin-left: 5.75em;
+    background-color: #9575cd;
+    color: white;
+    font-weight: 500;
+    padding: 0.5em;
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+    border-radius: 20px;
+    user-select: none;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+
+.outputControls {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0.5em;
+}
+.outputControls .control {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: transparent;
+    outline: none;
+    border: 2px solid black;
+    color: black;
+    text-decoration: none;
+    border-radius: 20px;
+    line-height: 0;
+    padding: 0;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    margin-right: 1em;
+    font-size: 0.8em;
+}
+.outputControls .control * {
+    margin-right: 0.5em;
+}
+.outputControls .control:hover {
+    cursor: pointer;
+    background-color: #d1c4e9;
+}
+
+#outputText {
+    white-space: pre-wrap;
 }
